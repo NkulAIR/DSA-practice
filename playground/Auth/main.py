@@ -27,11 +27,11 @@ def main():
       creds.refresh(Request())
     else:
       flow = InstalledAppFlow.from_client_secrets_file(
-          "credentials.json", SCOPES
+          ".gitignore/.env/credentials.json", SCOPES
       )
       creds = flow.run_local_server(port=0)
     # Save the credentials for the next run
-    with open("token.json", "w") as token:
+    with open(".gitignore/.env/token.json", "w") as token:
       token.write(creds.to_json())
     
   try:
@@ -41,7 +41,7 @@ def main():
     event = {
         "summary": "Stranger Things Event",
         "location": "Camp Nowhere",
-        "description": "Something Happening",
+        "description": "Something's Happening in the upside down",
         "colorId": 6,
         "start" : {
             "dateTime": "2026-01-19T09:00:00+02:00",
