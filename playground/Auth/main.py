@@ -1,3 +1,4 @@
+import datetime
 import os.path
 
 from google.auth.transport.requests import Request
@@ -7,15 +8,12 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 # If modifying these scopes, delete the file token.json.
-SCOPES = ["https://www.googleapis.com/auth/documents.readonly"]
-
-# The ID of a sample document.
-DOCUMENT_ID = "195j9eDD3ccgjQRttHhJPymLJUCOUjs-jmwTrekvdjFE"
+SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
 
 def main():
-  """Shows basic usage of the Docs API.
-  Prints the title of a sample document.
+  """Shows basic usage of the Google Calendar API.
+  Prints the start and name of the next 10 events on the user's calendar.
   """
   creds = None
   # The file token.json stores the user's access and refresh tokens, and is
@@ -35,16 +33,41 @@ def main():
     # Save the credentials for the next run
     with open("token.json", "w") as token:
       token.write(creds.to_json())
-
+    
   try:
-    service = build("docs", "v1", credentials=creds)
+    service = build("calendar", "v3", credentials=creds)
 
-    # Retrieve the documents contents from the Docs service.
-    document = service.documents().get(documentId=DOCUMENT_ID).execute()
+    # Call the Calendar API
+    event = {
+        "summary": "Stranger Things Event",
+        "location": "Camp Nowhere",
+        "description": "Something Happening",
+        "colorId": 6,
+        "start" : {
+            "dateTime": "2026-01-19T09:00:00+02:00",
+            "timeZone": "Africa/Johannesburg",
+            
+        },
+        "end": {
+            "dateTime": "2026-01-19T09:00:00+02:00",
+            "timeZone": "Africa/Johannesburg",
+        },
+        
+        "attendees" : [
+            {"email":"nkululekottshaka@gmail.com"}
+        ]
+    }
+    
+    event = service.events().insert(calendarId="primary", body=event).execute()
+    print(f"Event created {event.get('htmlLink')}")
+    
+    
+    
+    
 
-    print(f"The title of the document is: {document.get('title')}")
-  except HttpError as err:
-    print(err)
+
+  except HttpError as error:
+    print(f"An error occurred: {error}")
 
 
 if __name__ == "__main__":
