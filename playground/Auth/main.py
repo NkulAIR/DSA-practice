@@ -27,11 +27,11 @@ def main():
       creds.refresh(Request())
     else:
       flow = InstalledAppFlow.from_client_secrets_file(
-          ".gitignore/.env/credentials.json", SCOPES
+          "credentials.json", SCOPES
       )
       creds = flow.run_local_server(port=0)
     # Save the credentials for the next run
-    with open(".gitignore/.env/token.json", "w") as token:
+    with open("token.json", "w") as token:
       token.write(creds.to_json())
     
   try:
