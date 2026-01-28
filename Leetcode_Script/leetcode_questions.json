@@ -1,0 +1,417 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "topics": ["Array", "Hash Table"],
+      "url": "https://leetcode.com/problems/two-sum/"
+    },
+    {
+      "id": 2,
+      "title": "Add Two Numbers",
+      "difficulty": "Medium",
+      "topics": ["Linked List", "Math"],
+      "url": "https://leetcode.com/problems/add-two-numbers/"
+    },
+    {
+      "id": 3,
+      "title": "Longest Substring Without Repeating Characters",
+      "difficulty": "Medium",
+      "topics": ["String", "Sliding Window"],
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+    },
+    {
+      "id": 5,
+      "title": "Longest Palindromic Substring",
+      "difficulty": "Medium",
+      "topics": ["String", "Dynamic Programming"],
+      "url": "https://leetcode.com/problems/longest-palindromic-substring/"
+    },
+    {
+      "id": 11,
+      "title": "Container With Most Water",
+      "difficulty": "Medium",
+      "topics": ["Array", "Two Pointers"],
+      "url": "https://leetcode.com/problems/container-with-most-water/"
+    },
+    {
+      "id": 15,
+      "title": "3Sum",
+      "difficulty": "Medium",
+      "topics": ["Array", "Two Pointers"],
+      "url": "https://leetcode.com/problems/3sum/"
+    },
+    {
+      "id": 20,
+      "title": "Valid Parentheses",
+      "difficulty": "Easy",
+      "topics": ["String", "Stack"],
+      "url": "https://leetcode.com/problems/valid-parentheses/"
+    },
+    {
+      "id": 21,
+      "title": "Merge Two Sorted Lists",
+      "difficulty": "Easy",
+      "topics": ["Linked List"],
+      "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+    },
+    {
+      "id": 26,
+      "title": "Remove Duplicates from Sorted Array",
+      "difficulty": "Easy",
+      "topics": ["Array", "Two Pointers"],
+      "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+    },
+    {
+      "id": 46,
+      "title": "Permutations",
+      "difficulty": "Medium",
+      "topics": ["Backtracking", "Array"],
+      "url": "https://leetcode.com/problems/permutations/"
+    },
+    {
+      "id": 50,
+      "title": "Pow(x, n)",
+      "difficulty": "Medium",
+      "topics": ["Math", "Recursion"],
+      "url": "https://leetcode.com/problems/powx-n/"
+    },
+    {
+      "id": 70,
+      "title": "Climbing Stairs",
+      "difficulty": "Easy",
+      "topics": ["Dynamic Programming", "Math"],
+      "url": "https://leetcode.com/problems/climbing-stairs/"
+    },
+    {
+      "id": 53,
+      "title": "Maximum Subarray",
+      "difficulty": "Medium",
+      "topics": ["Array", "Dynamic Programming", "Divide and Conquer"],
+      "url": "https://leetcode.com/problems/maximum-subarray/"
+    },
+    {
+      "id": 121,
+      "title": "Best Time to Buy and Sell Stock",
+      "difficulty": "Easy",
+      "topics": ["Array", "Dynamic Programming"],
+      "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+    },
+    {
+      "id": 125,
+      "title": "Valid Palindrome",
+      "difficulty": "Easy",
+      "topics": ["String", "Two Pointers"],
+      "url": "https://leetcode.com/problems/valid-palindrome/"
+    },
+    {
+      "id": 127,
+      "title": "Word Ladder",
+      "difficulty": "Hard",
+      "topics": ["BFS", "Graph"],
+      "url": "https://leetcode.com/problems/word-ladder/"
+    },
+    {
+      "id": 128,
+      "title": "Longest Consecutive",
+      "difficulty": "Medium",
+      "topics": ["Array", "Hash Table"],
+      "url": "https://leetcode.com/problems/longest-consecutive/"
+    },
+    {
+      "id": 200,
+      "title": "Number of Islands",
+      "difficulty": "Medium",
+      "topics": ["DFS", "BFS", "Grid"],
+      "url": "https://leetcode.com/problems/number-of-islands/"
+    },
+    {
+      "id": 206,
+      "title": "Reverse Linked List",
+      "difficulty": "Easy",
+      "topics": ["Linked List"],
+      "url": "https://leetcode.com/problems/reverse-linked-list/"
+    },
+    {
+      "id": 207,
+      "title": "Course Schedule",
+      "difficulty": "Medium",
+      "topics": ["DFS", "Graph", "Topological Sort"],
+      "url": "https://leetcode.com/problems/course-schedule/"
+    },
+    {
+      "id": 208,
+      "title": "Implement Trie (Prefix Tree)",
+      "difficulty": "Medium",
+      "topics": ["Design", "Trie"],
+      "url": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+    },
+    {
+      "id": 215,
+      "title": "Kth Largest Element in an Array",
+      "difficulty": "Medium",
+      "topics": ["Heap", "Quick Select"],
+      "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+    },
+    {
+      "id": 221,
+      "title": "Maximal Square",
+      "difficulty": "Medium",
+      "topics": ["Dynamic Programming", "Matrix"],
+      "url": "https://leetcode.com/problems/maximal-square/"
+    },
+    {
+      "id": 226,
+      "title": "Invert Binary Tree",
+      "difficulty": "Easy",
+      "topics": ["Tree", "DFS"],
+      "url": "https://leetcode.com/problems/invert-binary-tree/"
+    },
+    {
+      "id": 235,
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "difficulty": "Easy",
+      "topics": ["Tree", "BST"],
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+    },
+    {
+      "id": 236,
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "difficulty": "Medium",
+      "topics": ["Tree", "DFS"],
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+    },
+    {
+      "id": 238,
+      "title": "Product of Array Except Self",
+      "difficulty": "Medium",
+      "topics": ["Array"],
+      "url": "https://leetcode.com/problems/product-of-array-except-self/"
+    },
+    {
+      "id": 242,
+      "title": "Valid Anagram",
+      "difficulty": "Easy",
+      "topics": ["String", "Hash Table"],
+      "url": "https://leetcode.com/problems/valid-anagram/"
+    },
+    {
+      "id": 253,
+      "title": "Meeting Rooms II",
+      "difficulty": "Medium",
+      "topics": ["Interval", "Heap", "Greedy"],
+      "url": "https://leetcode.com/problems/meeting-rooms-ii/"
+    },
+    {
+      "id": 261,
+      "title": "Graph Valid Tree",
+      "difficulty": "Medium",
+      "topics": ["DFS", "BFS", "Union Find"],
+      "url": "https://leetcode.com/problems/graph-valid-tree/"
+    },
+    {
+      "id": 269,
+      "title": "Alien Dictionary",
+      "difficulty": "Hard",
+      "topics": ["Topological Sort", "Graph"],
+      "url": "https://leetcode.com/problems/alien-dictionary/"
+    },
+    {
+      "id": 278,
+      "title": "First Bad Version",
+      "difficulty": "Easy",
+      "topics": ["Binary Search"],
+      "url": "https://leetcode.com/problems/first-bad-version/"
+    },
+    {
+      "id": 297,
+      "title": "Serialize and Deserialize Binary Tree",
+      "difficulty": "Hard",
+      "topics": ["Tree", "Design"],
+      "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+    },
+    {
+      "id": 300,
+      "title": "Longest Increasing Subsequence",
+      "difficulty": "Medium",
+      "topics": ["Dynamic Programming"],
+      "url": "https://leetcode.com/problems/longest-increasing-subsequence/"
+    },
+    {
+      "id": 322,
+      "title": "Coin Change",
+      "difficulty": "Medium",
+      "topics": ["Dynamic Programming", "BFS"],
+      "url": "https://leetcode.com/problems/coin-change/"
+    },
+    {
+      "id": 329,
+      "title": "Longest Increasing Path in a Matrix",
+      "difficulty": "Hard",
+      "topics": ["DFS", "Dynamic Programming", "Memoization"],
+      "url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/"
+    },
+    {
+      "id": 347,
+      "title": "Top K Frequent Elements",
+      "difficulty": "Medium",
+      "topics": ["Heap", "Hash Table"],
+      "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+    },
+    {
+      "id": 355,
+      "title": "Design Twitter",
+      "difficulty": "Medium",
+      "topics": ["Design", "Heap"],
+      "url": "https://leetcode.com/problems/design-twitter/"
+    },
+    {
+      "id": 377,
+      "title": "Combination Sum IV",
+      "difficulty": "Medium",
+      "topics": ["Dynamic Programming"],
+      "url": "https://leetcode.com/problems/combination-sum-iv/"
+    },
+    {
+      "id": 387,
+      "title": "First Unique Character in a String",
+      "difficulty": "Easy",
+      "topics": ["String", "Hash Table"],
+      "url": "https://leetcode.com/problems/first-unique-character-in-a-string/"
+    },
+    {
+      "id": 424,
+      "title": "Longest Repeating Character Replacement",
+      "difficulty": "Medium",
+      "topics": ["String", "Sliding Window"],
+      "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+    },
+    {
+      "id": 435,
+      "title": "Non-overlapping Intervals",
+      "difficulty": "Medium",
+      "topics": ["Interval", "Greedy"],
+      "url": "https://leetcode.com/problems/non-overlapping-intervals/"
+    },
+    {
+      "id": 437,
+      "title": "Path Sum III",
+      "difficulty": "Medium",
+      "topics": ["Tree", "DFS", "Recursion"],
+      "url": "https://leetcode.com/problems/path-sum-iii/"
+    },
+    {
+      "id": 438,
+      "title": "Find All Anagrams in a String",
+      "difficulty": "Medium",
+      "topics": ["String", "Sliding Window"],
+      "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/"
+    },
+    {
+      "id": 543,
+      "title": "Diameter of Binary Tree",
+      "difficulty": "Easy",
+      "topics": ["Tree", "DFS"],
+      "url": "https://leetcode.com/problems/diameter-of-binary-tree/"
+    },
+    {
+      "id": 545,
+      "title": "Boundary of Binary Tree",
+      "difficulty": "Medium",
+      "topics": ["Tree", "DFS"],
+      "url": "https://leetcode.com/problems/boundary-of-binary-tree/"
+    },
+    {
+      "id": 560,
+      "title": "Subarray Sum Equals K",
+      "difficulty": "Medium",
+      "topics": ["Array", "Hash Table"],
+      "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+    },
+    {
+      "id": 617,
+      "title": "Merge Two Binary Trees",
+      "difficulty": "Easy",
+      "topics": ["Tree"],
+      "url": "https://leetcode.com/problems/merge-two-binary-trees/"
+    },
+    {
+      "id": 673,
+      "title": "Number of Longest Increasing Subsequence",
+      "difficulty": "Medium",
+      "topics": ["Dynamic Programming"],
+      "url": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/"
+    },
+    {
+      "id": 704,
+      "title": "Binary Search",
+      "difficulty": "Easy",
+      "topics": ["Binary Search"],
+      "url": "https://leetcode.com/problems/binary-search/"
+    },
+    {
+      "id": 721,
+      "title": "Accounts Merge",
+      "difficulty": "Hard",
+      "topics": ["Union Find", "DFS"],
+      "url": "https://leetcode.com/problems/accounts-merge/"
+    },
+    {
+      "id": 733,
+      "title": "Flood Fill",
+      "difficulty": "Easy",
+      "topics": ["DFS", "BFS"],
+      "url": "https://leetcode.com/problems/flood-fill/"
+    },
+    {
+      "id": 743,
+      "title": "Network Delay Time",
+      "difficulty": "Medium",
+      "topics": ["Dijkstra", "Graph"],
+      "url": "https://leetcode.com/problems/network-delay-time/"
+    },
+    {
+      "id": 876,
+      "title": "Middle of the Linked List",
+      "difficulty": "Easy",
+      "topics": ["Linked List", "Two Pointers"],
+      "url": "https://leetcode.com/problems/middle-of-the-linked-list/"
+    },
+    {
+      "id": 905,
+      "title": "Sort Array By Parity",
+      "difficulty": "Easy",
+      "topics": ["Array", "Two Pointers"],
+      "url": "https://leetcode.com/problems/sort-array-by-parity/"
+    },
+    {
+      "id": 973,
+      "title": "K Closest Points to Origin",
+      "difficulty": "Medium",
+      "topics": ["Heap", "Array"],
+      "url": "https://leetcode.com/problems/k-closest-points-to-origin/"
+    },
+    {
+      "id": 1143,
+      "title": "Longest Common Subsequence",
+      "difficulty": "Medium",
+      "topics": ["Dynamic Programming"],
+      "url": "https://leetcode.com/problems/longest-common-subsequence/"
+    },
+    {
+      "id": 1448,
+      "title": "Count Good Nodes in Binary Tree",
+      "difficulty": "Medium",
+      "topics": ["Tree", "DFS"],
+      "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/"
+    },
+    {
+      "id": 1480,
+      "title": "Running Sum of 1d Array",
+      "difficulty": "Easy",
+      "topics": ["Array", "Prefix Sum"],
+      "url": "https://leetcode.com/problems/running-sum-of-1d-array/"
+    }
+  ]
+}
