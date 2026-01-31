@@ -11,7 +11,7 @@ from q_1200_minimumAbsoluteDifference import Solution
     ],
 )
 class TestSolution:
-    def test_minimumAbsDifference(self, arr: List[int], output: List[List[int]]):
+    def test_minimumAbsDifference(self, arr, output):
         sc = Solution()
         assert (
             sc.minimumAbsDifference(
