@@ -50,18 +50,26 @@ def main():
 #     print(digits, powers)
 
 
-def digit_root(n):
-    digits = [int(i) for i in str(n)]
-    total = 0
+# def digit_root(n):
+#     digits = [int(i) for i in str(n)]
+#     total = 0
     
     
-    if len(digits) <= 1:
-        return n
+#     if len(digits) <= 1:
+#         return n
     
-    for i in digits:
-        total += i
+#     for i in digits:
+#         total += i
     
-    return digit_root(total)
+#     return digit_root(total)
+
+def fib_prod(n) # -> int:
+
+def fibonacci(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
 
 
 
