@@ -8,6 +8,7 @@ def cakes(recipe, available):
     rec_ = set(recipe)
     ava_ = set(available)
     cost_of_one = recipe.values()
+    ingred = {}
 
 
     no_of_cakes = 0
@@ -15,11 +16,12 @@ def cakes(recipe, available):
     if len(rec_.difference(ava_)) == 0:
         for a in recipe.keys():
             if available[a] >= recipe[a]:
-                print(available[a], recipe[a])
+                ingred[a] = available[a] // recipe[a]
             else:
                 return no_of_cakes
+        
+        no_of_cakes = min(ingred.values())
  
-    else:
         return no_of_cakes
 
 
