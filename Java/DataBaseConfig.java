@@ -12,7 +12,7 @@ public class DatabaseConfig {
             this.port = 5432;
         }
         if (username == null) {
-            this.username = username;
+            this.username = "admin";
         }
         if (password == null) {
             this.password = "password";
