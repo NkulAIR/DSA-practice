@@ -7,8 +7,7 @@ public class Person{
     private LocalDate birthDate;
 
     public Person( String name, LocalDate birthDate ){
-        if( name == null ) throw new NullPointerException( "Name may not be null" );
-        if( name.isEmpty() ) throw new IllegalArgumentException( "Name may not be empty" );
+
 
         LocalDate now = LocalDate.now();
         if( birthDate != null && now.isBefore( birthDate )){
